@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7B2ED9C20C6940D009175DE"
+               BlueprintIdentifier = "E7B2EDEF20C6964E009175DE"
                BuildableName = "CircleSlider.framework"
                BlueprintName = "CircleSlider"
                ReferencedContainer = "container:CircleSlider.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7B2ED9C20C6940D009175DE"
+            BlueprintIdentifier = "E7B2EDEF20C6964E009175DE"
             BuildableName = "CircleSlider.framework"
             BlueprintName = "CircleSlider"
             ReferencedContainer = "container:CircleSlider.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7B2ED9C20C6940D009175DE"
+            BlueprintIdentifier = "E7B2EDEF20C6964E009175DE"
             BuildableName = "CircleSlider.framework"
             BlueprintName = "CircleSlider"
             ReferencedContainer = "container:CircleSlider.xcodeproj">

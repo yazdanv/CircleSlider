@@ -7,28 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7B2EDB020C69463009175DE /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EDAA20C69463009175DE /* Math.swift */; };
-		E7B2EDB120C69463009175DE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E7B2EDAB20C69463009175DE /* .gitkeep */; };
-		E7B2EDB220C69463009175DE /* TrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EDAC20C69463009175DE /* TrackLayer.swift */; };
-		E7B2EDB320C69463009175DE /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EDAD20C69463009175DE /* CircleSlider.swift */; };
-		E7B2EDB420C69463009175DE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E7B2EDAF20C69463009175DE /* .gitkeep */; };
-		E7B2EDE120C69516009175DE /* CircleSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B2EDDF20C69516009175DE /* CircleSlider.h */; };
-		E7B2EDE520C69566009175DE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7B2EDE420C69566009175DE /* Info.plist */; };
+		E7B2EDF520C6964E009175DE /* CircleSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B2EDF320C6964E009175DE /* CircleSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7B2EE0020C69694009175DE /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EDFC20C69694009175DE /* Math.swift */; };
+		E7B2EE0120C69694009175DE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E7B2EDFD20C69694009175DE /* .gitkeep */; };
+		E7B2EE0220C69694009175DE /* TrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EDFE20C69694009175DE /* TrackLayer.swift */; };
+		E7B2EE0320C69694009175DE /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B2EDFF20C69694009175DE /* CircleSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E7B2ED9D20C6940D009175DE /* CircleSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7B2EDAA20C69463009175DE /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
-		E7B2EDAB20C69463009175DE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		E7B2EDAC20C69463009175DE /* TrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackLayer.swift; sourceTree = "<group>"; };
-		E7B2EDAD20C69463009175DE /* CircleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSlider.swift; sourceTree = "<group>"; };
-		E7B2EDAF20C69463009175DE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		E7B2EDDF20C69516009175DE /* CircleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSlider.h; sourceTree = "<group>"; };
-		E7B2EDE420C69566009175DE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B2EDF020C6964E009175DE /* CircleSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B2EDF320C6964E009175DE /* CircleSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleSlider.h; sourceTree = "<group>"; };
+		E7B2EDF420C6964E009175DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B2EDFC20C69694009175DE /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		E7B2EDFD20C69694009175DE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		E7B2EDFE20C69694009175DE /* TrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackLayer.swift; sourceTree = "<group>"; };
+		E7B2EDFF20C69694009175DE /* CircleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E7B2ED9920C6940D009175DE /* Frameworks */ = {
+		E7B2EDEC20C6964E009175DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,74 +35,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E7B2ED9320C6940C009175DE = {
+		E7B2EDE620C6964E009175DE = {
 			isa = PBXGroup;
 			children = (
-				E7B2EDE320C69566009175DE /* CircleSlider */,
-				E7B2ED9E20C6940D009175DE /* Products */,
+				E7B2EDF220C6964E009175DE /* CircleSlider */,
+				E7B2EDF120C6964E009175DE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E7B2ED9E20C6940D009175DE /* Products */ = {
+		E7B2EDF120C6964E009175DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7B2ED9D20C6940D009175DE /* CircleSlider.framework */,
+				E7B2EDF020C6964E009175DE /* CircleSlider.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7B2EDA920C69463009175DE /* Classes */ = {
+		E7B2EDF220C6964E009175DE /* CircleSlider */ = {
 			isa = PBXGroup;
 			children = (
-				E7B2EDAA20C69463009175DE /* Math.swift */,
-				E7B2EDAB20C69463009175DE /* .gitkeep */,
-				E7B2EDAC20C69463009175DE /* TrackLayer.swift */,
-				E7B2EDAD20C69463009175DE /* CircleSlider.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E7B2EDAE20C69463009175DE /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				E7B2EDAF20C69463009175DE /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		E7B2EDE320C69566009175DE /* CircleSlider */ = {
-			isa = PBXGroup;
-			children = (
-				E7B2EDA920C69463009175DE /* Classes */,
-				E7B2EDAE20C69463009175DE /* Assets */,
-				E7B2EDE420C69566009175DE /* Info.plist */,
-				E7B2EDDF20C69516009175DE /* CircleSlider.h */,
+				E7B2EDFB20C69694009175DE /* Classes */,
+				E7B2EDF320C6964E009175DE /* CircleSlider.h */,
+				E7B2EDF420C6964E009175DE /* Info.plist */,
 			);
 			path = CircleSlider;
+			sourceTree = "<group>";
+		};
+		E7B2EDFB20C69694009175DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7B2EDFC20C69694009175DE /* Math.swift */,
+				E7B2EDFD20C69694009175DE /* .gitkeep */,
+				E7B2EDFE20C69694009175DE /* TrackLayer.swift */,
+				E7B2EDFF20C69694009175DE /* CircleSlider.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E7B2ED9A20C6940D009175DE /* Headers */ = {
+		E7B2EDED20C6964E009175DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B2EDE120C69516009175DE /* CircleSlider.h in Headers */,
+				E7B2EDF520C6964E009175DE /* CircleSlider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E7B2ED9C20C6940D009175DE /* CircleSlider */ = {
+		E7B2EDEF20C6964E009175DE /* CircleSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7B2EDA520C6940D009175DE /* Build configuration list for PBXNativeTarget "CircleSlider" */;
+			buildConfigurationList = E7B2EDF820C6964E009175DE /* Build configuration list for PBXNativeTarget "CircleSlider" */;
 			buildPhases = (
-				E7B2ED9820C6940D009175DE /* Sources */,
-				E7B2ED9920C6940D009175DE /* Frameworks */,
-				E7B2ED9A20C6940D009175DE /* Headers */,
-				E7B2ED9B20C6940D009175DE /* Resources */,
+				E7B2EDEB20C6964E009175DE /* Sources */,
+				E7B2EDEC20C6964E009175DE /* Frameworks */,
+				E7B2EDED20C6964E009175DE /* Headers */,
+				E7B2EDEE20C6964E009175DE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,68 +101,66 @@
 			);
 			name = CircleSlider;
 			productName = CircleSlider;
-			productReference = E7B2ED9D20C6940D009175DE /* CircleSlider.framework */;
+			productReference = E7B2EDF020C6964E009175DE /* CircleSlider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E7B2ED9420C6940C009175DE /* Project object */ = {
+		E7B2EDE720C6964E009175DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = mandaa;
 				TargetAttributes = {
-					E7B2ED9C20C6940D009175DE = {
+					E7B2EDEF20C6964E009175DE = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
-			buildConfigurationList = E7B2ED9720C6940C009175DE /* Build configuration list for PBXProject "CircleSlider" */;
+			buildConfigurationList = E7B2EDEA20C6964E009175DE /* Build configuration list for PBXProject "CircleSlider" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E7B2ED9320C6940C009175DE;
-			productRefGroup = E7B2ED9E20C6940D009175DE /* Products */;
+			mainGroup = E7B2EDE620C6964E009175DE;
+			productRefGroup = E7B2EDF120C6964E009175DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7B2ED9C20C6940D009175DE /* CircleSlider */,
+				E7B2EDEF20C6964E009175DE /* CircleSlider */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E7B2ED9B20C6940D009175DE /* Resources */ = {
+		E7B2EDEE20C6964E009175DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B2EDB120C69463009175DE /* .gitkeep in Resources */,
-				E7B2EDB420C69463009175DE /* .gitkeep in Resources */,
-				E7B2EDE520C69566009175DE /* Info.plist in Resources */,
+				E7B2EE0120C69694009175DE /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E7B2ED9820C6940D009175DE /* Sources */ = {
+		E7B2EDEB20C6964E009175DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B2EDB020C69463009175DE /* Math.swift in Sources */,
-				E7B2EDB220C69463009175DE /* TrackLayer.swift in Sources */,
-				E7B2EDB320C69463009175DE /* CircleSlider.swift in Sources */,
+				E7B2EE0020C69694009175DE /* Math.swift in Sources */,
+				E7B2EE0220C69694009175DE /* TrackLayer.swift in Sources */,
+				E7B2EE0320C69694009175DE /* CircleSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E7B2EDA320C6940D009175DE /* Debug */ = {
+		E7B2EDF620C6964E009175DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		E7B2EDA420C6940D009175DE /* Release */ = {
+		E7B2EDF720C6964E009175DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,18 +280,18 @@
 			};
 			name = Release;
 		};
-		E7B2EDA620C6940D009175DE /* Debug */ = {
+		E7B2EDF920C6964E009175DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/CircleSlider/Info.plist";
+				INFOPLIST_FILE = CircleSlider/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,18 +305,18 @@
 			};
 			name = Debug;
 		};
-		E7B2EDA720C6940D009175DE /* Release */ = {
+		E7B2EDFA20C6964E009175DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/CircleSlider/Info.plist";
+				INFOPLIST_FILE = CircleSlider/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,25 +333,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7B2ED9720C6940C009175DE /* Build configuration list for PBXProject "CircleSlider" */ = {
+		E7B2EDEA20C6964E009175DE /* Build configuration list for PBXProject "CircleSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7B2EDA320C6940D009175DE /* Debug */,
-				E7B2EDA420C6940D009175DE /* Release */,
+				E7B2EDF620C6964E009175DE /* Debug */,
+				E7B2EDF720C6964E009175DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7B2EDA520C6940D009175DE /* Build configuration list for PBXNativeTarget "CircleSlider" */ = {
+		E7B2EDF820C6964E009175DE /* Build configuration list for PBXNativeTarget "CircleSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7B2EDA620C6940D009175DE /* Debug */,
-				E7B2EDA720C6940D009175DE /* Release */,
+				E7B2EDF920C6964E009175DE /* Debug */,
+				E7B2EDFA20C6964E009175DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E7B2ED9420C6940C009175DE /* Project object */;
+	rootObject = E7B2EDE720C6964E009175DE /* Project object */;
 }
