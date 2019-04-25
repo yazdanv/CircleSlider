@@ -57,7 +57,7 @@ internal class TrackLayer: CAShapeLayer {
         path.append(UIBezierPath(rect: maskLayer.bounds))
         maskLayer.path = path.cgPath
         maskLayer.position = currentCenter
-        maskLayer.fillRule = kCAFillRuleEvenOdd
+        maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
         mask = maskLayer
     }
     
